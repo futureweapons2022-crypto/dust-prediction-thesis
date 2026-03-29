@@ -39,7 +39,7 @@ TOP_K_FINAL = 5         # Send top 5 to LLM
 
 # LLM config (Gemini — free)
 GEMINI_MODEL = "gemini-2.0-flash"
-GEMINI_API_KEY = "AIzaSyCyQpE1ZAJ1oo_zqfB6f-pLQiue-rBMWRE"
+GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY", "")
 
 
 # ============================================================
